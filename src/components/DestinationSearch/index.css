@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.app-container {
+  min-height: 100vh;
+  padding: 30px;
+  font-family: 'Roboto';
+}
+
+.input-container {
+  display: flex;
+  width: 250px;
+  padding: 5px;
+  background: #f1f5f9;
+}
+
+input {
+  background: #f1f5f9;
+  outline: none;
+  border: none;
+  height: 30px;
+  padding: 10px;
+}
+
+.search-img {
+  height: 30px;
+}
+
+.places-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

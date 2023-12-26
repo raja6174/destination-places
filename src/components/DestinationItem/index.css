@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.place-container {
+  margin-top: 20px;
+  margin-right: 20px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.place-img {
+  width: 100%;
+}
+
+.place-name {
+  font-size: 15px;
+}
+
+@media (min-width: 768px) {
+  .place-container {
+    width: 20%;
+  }
+}
